@@ -1,33 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<section class="contact-section">
-  <div class="contact-intro">
-    <h2 class="contact-title">Get in Touch</h2>
-    <p class="contact-description">
-      Fill out the form below and we'll get back to you as soon as possible.
-    </p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Learn more about Noah Baty — the founder of Tech Talk, his experience, skills, and passion for technology.">
+  <meta name="keywords" content="About, Noah Baty, Tech Talk, Technology, Computing, Repairs, Custom PC">
+  <meta name="author" content="Noah Baty">
+  <title>About Me | Tech Talk</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+
+<body>
+  <!-- ===== HEADER / NAV ===== -->
+  <main class="hero-section-a">
+    <div class="banner-overlay">
+      <a href="index.html" class="btn-primary">Home</a>
+      <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-button">☰</label>
+        <div class="dropdown">
+          <a href="index.html">Home</a>
+          <a href="about-me.html">About Me</a>
+          <a href="contact.html">Contact</a>
+          <a href="custom-pc.html">Custom PC</a>
+        </div>
+      </nav>
+    </div>
+  </main>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <div class="page-banner">
+    <h1>About Me</h1>
+    <p>Get to know the person behind Tech Talk — my background, experience, and what drives my passion for technology.</p>
   </div>
 
-  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  
-    <div class="form-group-container">
-      <div class="form-group">
-        <label for="name" class="form-label">Name</label>
-        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
-      </div>
-      <div class="form-group">
-        <label for="email" class="form-label">Email</label>
-        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required/>
-      </div>
-      <div class="form-group">
-        <label for="phone number" class="form-label">Phone</label>
-        <input id="phone number" name="phone number" class="form-input" placeholder="Phone Number" type="text" required/>
-      </div>
-      <div class="form-group">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="unified-section">
+    <div class="container">
+
+      <!-- PROFILE IMAGES -->
+      <section class="unified-box profile-gallery">
+        <h2>Gallery</h2>
+        <div class="profile-container">
+          <div class="click-zoom">
+            <label>
+              <input type="checkbox">
+              <img src="images/GOPR1609.jpeg" alt="Outward Bound picture" class="profile-img">
+            </label>
+          </div>
+          <div class="click-zoom">
+            <label>
+              <input type="checkbox">
+              <img src="images/IMG_5268.JPG" alt="Rugby photo" class="profile-img">
+            </label>
+          </div>
+          <div class="click-zoom">
+            <label>
+              <input type="checkbox">
+              <img src="images/IMG_5542.jpg" alt="School photo" class="profile-img">
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- BIO SECTION -->
+      <section class="unified-box">
+        <h2>Who I Am</h2>
+        <p>
+          Hi, I’m <strong>Noah Baty</strong> — a hardworking and motivated Year 12 student at John McGlashan College in Dunedin. 
+          I study English, Digital Technology, Math, History, Biology, and PE, and I’ve built a strong passion for understanding how things work.
+        </p>
+        <p>
+          Over the past two years, I’ve been running my part-time business <strong>Tech Talk</strong>, providing PC repair, troubleshooting, and custom builds to clients across the Otago Peninsula.
+        </p>
+        <p>
+          My goal is to help people feel confident with their devices — not just by fixing problems, but by helping them understand their technology better.
+        </p>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="unified-box">
+        <h2>Experience</h2>
+        <ul>
+          <li><strong>Owner / PC Builder / Repairer</strong> – Tech Talk (2023 – present)</li>
+          <li><strong>Retail Assistant</strong> – Vogel St Hospice Shop (2024 – 6 months)</li>
+        </ul>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="unified-box">
+        <h2>Skills</h2>
+        <ul>
+          <li>PC building, repair & troubleshooting</li>
+          <li>Strong knowledge of computer hardware & electronics</li>
+          <li>Exceptional customer service</li>
+          <li>Knowledge of health & safety practices</li>
+          <li>Sales, budgeting & client support</li>
+        </ul>
+      </section>
+
+      <!-- INTERESTS -->
+      <section class="unified-box">
+        <h2>Interests</h2>
+        <p>Outside of Tech Talk, I enjoy playing rugby (John McGlashan 3rd XV 2025), gaming online, and learning about the latest advancements in computing and AI.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about-me.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="custom-pc.html">Custom PC</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/noah.baty.3/"></a>
       </div>
     </div>
-    <button class="form-submit" type="submit">Send Message</button>
-  </form>
-
-</section>
+    <div class="footer-bottom">
+      &copy; 2025 Tech Talk. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
