@@ -64,7 +64,7 @@ body {
 }
 
 .img-text {
-  padding-top: 36px;
+  padding-top:36px;
 }
 
 .btn-primary {
@@ -156,36 +156,6 @@ body {
   border-radius: 12px;
   background-color: var(--pearlescent);
   border: 2px solid var(--royal-blue);
-}
-
-.content-section {
-  background-color: white;
-  padding: 40px 20px;
-  background-image: url("images/background2.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.content-section .container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.content-section h1 {
-  color: var(--royal-blue);
-  margin-bottom: 16px;
-}
-
-.content-section p {
-  color: var(--text-muted);
-  margin-bottom: 32px;
-  font-family: "Merriweather", serif;
-}
-
-.content-section ul {
-  color: var(--text-muted);
-  margin-bottom: 32px;
-  font-family: "Merriweather", serif;
 }
 
 .site-footer {
@@ -383,62 +353,6 @@ body {
   cursor: pointer;
 }
 
-.custompc-section {
-  background: var(--pearlescent);
-  padding: 60px 20px;
-  background-image: url("images/background2.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.custompc-section .container {
-  max-width: 900px;
-  margin: auto;
-}
-
-.custompc-header {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.custompc-header h1 {
-  font-size: 2.2rem;
-  color: var(--royal-blue);
-  margin-bottom: 10px;
-}
-
-.custompc-header p {
-  color: var(--text-muted);
-  font-family: "Merriweather", serif;
-  max-width: 700px;
-  margin: auto;
-}
-
-.custompc-box {
-  background: white;
-  border-radius: 10px;
-  border-left: 6px solid var(--royal-blue);
-  padding: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.custompc-box h2 {
-  color: var(--royal-blue);
-  margin-bottom: 16px;
-}
-
-.custompc-box ul,
-.custompc-box ol {
-  margin-left: 20px;
-  margin-bottom: 20px;
-  font-family: "Merriweather", serif;
-  color: var(--text-muted);
-}
-
-.custompc-box li {
-  margin-bottom: 8px;
-}
 
 .contact-invite {
   text-align: center;
